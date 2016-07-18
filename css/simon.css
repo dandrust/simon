@@ -1,0 +1,172 @@
+.container {
+	position: relative;
+	width: 435px;
+	height: 435px;
+	border: 5px solid black;
+	margin: 50px auto;
+	background-color: black;
+	border-radius: 100%;
+}
+
+.button{
+	position: absolute;
+	min-height: 200px;
+	min-width: 200px;
+	display: inline-block;
+	border: 5px solid black;
+	opacity: .6;
+}
+
+.active:active{
+	opacity: 1;
+	
+}
+
+.one{
+	top: 5px;
+	left: 5px;
+	border-top-left-radius: 100%;
+	background-color: green;
+}
+
+.two{
+	top: 5px;
+	right: 5px;
+	border-top-right-radius: 100%;
+	background-color: red;
+}
+
+.three{
+	left: 5px;
+	top: 220px;
+	border-bottom-left-radius: 100%;
+	background-color: yellow;
+}
+
+.four{
+	right: 5px;
+	top: 220px;
+	border-bottom-right-radius: 100%;
+	background-color: blue;
+}
+
+.block{
+	margin-top: 5px;
+}
+
+.highlight {
+	opacity: 1;
+}
+
+.control-container{
+	border: 10px solid black;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+	position: absolute;
+	top: 107.5px;
+	left: 107.5px;
+	background-color: silver;
+	font-family: helvetica;
+	
+}
+
+.game-title {
+	font-size: 45px;
+	font-weight: 800;
+	margin-top: 25px;
+	margin-left: auto;
+	text-align: center;
+	
+}
+
+.controls-block-one {
+	position: relative;
+	margin-top: 3px;
+	margin-left: auto;
+	padding-left: 5px;
+}
+
+.controls-block-one>div {
+	display: inline-block;
+	margin: 3px 10px;
+	align-content: center;
+}
+
+.label {
+	font-weight: 500;
+	font-size: 12px;
+	text-align: center;
+}
+
+.screen{
+	border: 1px solid white;
+	background-color: black;
+	border-radius: 10%;
+	min-height: 30px;
+	min-width: 40px;
+	margin: 3px auto;
+	color: darkred;
+	text-align: right;
+	font-family: monospace;
+	font-size: 20px;
+	padding-right: 8px;
+	padding-top: 2px;
+	box-sizing: border-box;
+	
+}
+
+.start, .strict {
+	
+	background-color: yellow;
+	
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	
+	
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+.start-border, .strict-border {
+	margin: 6px auto;
+	border-radius: 50%;
+	height: 25px;
+	width: 25px;
+	background-color: grey;
+	position: relative;
+	
+}
+
+.strict {
+	background-color: red;
+	opacity: .3;
+	
+}
+
+
+.controls-block-two{
+	margin-top: 15px;
+}
+.slider-container {
+	position: relative;
+	width: 50px;
+	height: 15px;
+	background-color: black;
+	border-radius: 5px;
+	border: 3px solid black;
+	margin: auto;
+}
+
+.slider-button {
+	position: absolute;
+	height:15px;
+	width: 25px;
+	background-color: blue;
+	border-radius: 3px;
+	left:25px;
+	
+}
+
